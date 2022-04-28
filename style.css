@@ -1,0 +1,50 @@
+body{
+    font-family: 'Irish Grover', cursive;
+    font-size: 1.3rem;
+}
+.nav-font{
+    font-style: oblique;
+}
+/* hero */
+.hero{
+    min-height: 70vh;
+    background: linear-gradient(rgb(173, 230, 173), rgb(220, 202, 167));
+   
+
+}
+.img{
+    border-radius: 50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+.title span{
+    padding: 0.1rem 1rem;
+    border-bottom: 0.5rem solid rgb(230, 183, 13);
+}
+.icons i{
+    font-size: 5rem;
+}
+.icons> div{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.projects{
+    background: lightgreen;
+}
+.projects .row{
+    --bs-gutter-x: 0;
+}
+.about{
+    background: lightblue;
+    border-radius: 31px;
+}
+.imggg{
+    border-radius: 50%;
+    height: 20vh;
+}
